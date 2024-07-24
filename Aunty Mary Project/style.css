@@ -1,0 +1,298 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+}
+
+span {
+  color: #3498bd;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+
+nav {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid #3498bd;
+}
+
+.Logo {
+  padding: 0 100px;
+  padding-left: 38px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 16px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 80px;
+}
+
+nav a {
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+  cursor: col-resize;
+}
+
+a.active,
+a:hover {
+  border: 1px solid black;
+  transition: .5s;
+}
+
+nav .icon {
+  color: black;
+  font-size: 20px;
+  line-height: 80px;
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+
+@media (max-width:915px) {
+  nav .icon {
+    display: inline-block;
+    color: black;
+  }
+
+  nav ul {
+    position: fixed;
+    width: 100%;
+    background-color: #3498bd;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    height: 100%;
+
+  }
+
+  nav ul li {
+    display: block;
+    margin: 20px 0;
+    line-height: 20px;
+    ;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    color: aliceblue;
+    border-bottom: 1px dotted white
+  }
+
+  a.active,
+  a:hover {
+    border-bottom: 1px dotted white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+    color: white;
+  }
+
+  nav ul.show {
+    left: 0%;
+  }
+}
+
+
+i {
+  margin-right: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+nav {
+  width: 100%;
+}
+
+
+.io {
+
+  font-family: sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.677)), url(https://www.skyfitnessng.com/wp-content/uploads/2020/02/200131_Skyfit-Lagos_0339-copy-1536x1024.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+  height: fit-content;
+  background-position: center;
+  animation: change 10s infinite ease-in-out;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  padding-top: 200px;
+}
+
+button {
+  background-color: #3498bd;
+  align-items: center;
+  color: white;
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
+  border: 3px solid #3498bd;
+  margin-bottom: 100px;
+  font-size: 1.1rem;
+}
+
+@keyframes change {
+  0% {
+    background: url(https://www.skyfitnessng.com/wp-content/uploads/2020/02/200131_Skyfit-Lagos_0339-copy-1536x1024.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  25% {
+    background: url(https://www.skyfitnessng.com/wp-content/uploads/2020/02/IMG_2431-1536x1024.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  50% {
+    background: url(https://www.skyfitnessng.com/wp-content/uploads/2020/01/20191219-IMG_4019-1536x1024.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  100% {
+    background: url(https://www.skyfitnessng.com/wp-content/uploads/2020/02/200131_Skyfit-Lagos_0339-copy-1536x1024.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.SKYFIT {
+  height: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+.all {
+  color: black;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.skyi {
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.iop {
+  margin-left: 10px;
+}
+
+.goll {
+  font-family: sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.677)), url(https://img.freepik.com/free-photo/powerful-stylish-bodybuilder-with-tattoo-his-arm-doing-exercises-with-dumbbells-isolated-dark-background_613910-5209.jpg?t=st=1721806800~exp=1721810400~hmac=e0f14e579d1b4e6bae1715a3631c7da8b3e3730b244d83aa765234867327fb69&w=740);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+  background-position: center;
+}
+.weight{
+  width: 100%;
+}
+.hfuf{
+ background-color: rgba(240, 248, 255, 0);
+ border-color: white;
+}
+.hfuf:hover{
+  background-color:#3498bd;
+  border-color: #3498bd;
+}
+button:hover{
+  background-color: rgba(255, 0, 0, 0);
+  border-color: white;
+}
+aside{
+  width: 100%;
+  height: 90px;
+  background-color: #3498bd;
+}
+aside:hover{
+  background-color:px
+   red;
+}
+.along{
+  text-align: left;
+  padding-left: 10px;
+}
+@media (min-width:1000px){
+  .text{
+    width: 40%;
+    display: inline-block;
+    line-height: 25px;
+}.ten{
+  display: inline-block;
+  width: 60%;
+  height: 500px;
+}
+  .weight{
+    width: 400px;
+    height: 500px;
+  }
+}
+.iolj{
+  background-color: #3498bd;
+  text-align: center;
+  display: none;
+  top: 80px;
+}
+.iolj li{
+  padding: 20px;
+  display: block;
+  line-height: 30px;
+  border-bottom: 1px dotted white;
+  color: white;
+}
+/* .lactive:hover, .iolj{
+  display:initial;
+} */
